@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: grid;
+  height: 100vh;
+  font-family: sans-serif;
+}
+
+main {
+  margin: auto;
+  text-align: center;
+  animation: rota 10s infinite linear;
+  display: flex;
+  height: 80%;
+  /* gap: 2rem; */
+  width: 80%;
+}
+.timerDiv {
+  /* background-color: red; */
+  width: 50%;
+  /* height: 10rem; */
+  background-image: url("../images/pexels-pixabay-235986.jpg");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.timerDiv h2 {
+  color: white;
+}
+
+.timerDiv span {
+  font-weight: 400;
+}
+
+.days {
+}
+
+.textDiv {
+  display: flex;
+  align-items: center;
+}
+.textDiv h1 {
+  text-align: left;
+  margin-left: 3rem;
+  margin-bottom: 2rem;
+}
+
+.textDiv p {
+  width: 70%;
+  text-align: left;
+  margin-left: 3rem;
+  line-height: 1.5rem;
+}
+button {
+  display: block;
+  margin-left: 3rem;
+  margin-top: 2rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 1rem;
+}
+
+/* @keyframes rota {
+  100% {
+    transform: rotate(360deg);
+  }
+} */

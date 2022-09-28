@@ -15,8 +15,15 @@ main {
   margin: auto;
   text-align: center;
   animation: rota 10s infinite linear;
+  .timerDiv {
+    background-color: red;
+    width: 10rem;
+    height: 10rem;
+  }
 }
 
 @keyframes rota {
-  100% { transform: rotate(360deg) }
+  100% {
+    transform: rotate(360deg);
+  }
 }
