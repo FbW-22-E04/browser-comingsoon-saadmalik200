@@ -1,8 +1,7 @@
-// This is where your styles can go :)
-// the existing styles are just a placeholder, feel free to delete :)
-
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -15,15 +14,62 @@ main {
   margin: auto;
   text-align: center;
   animation: rota 10s infinite linear;
-  .timerDiv {
-    background-color: red;
-    width: 10rem;
-    height: 10rem;
-  }
+  display: flex;
+  height: 80%;
+  /* gap: 2rem; */
+  width: 80%;
+}
+.timerDiv {
+  /* background-color: red; */
+  width: 40%;
+  /* height: 10rem; */
+  background-image: url("../images/pexels-pixabay-235986.jpg");
+  filter: grayscale(100%);
+  // filter: blur(5px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-@keyframes rota {
+.timerDiv h2 {
+  color: white;
+}
+
+.timerDiv span {
+  font-weight: 400;
+}
+
+.textDiv {
+  display: flex;
+  align-items: center;
+}
+.textDiv h1 {
+  text-align: left;
+  margin-left: 3rem;
+  margin-bottom: 2rem;
+}
+
+.textDiv p {
+  width: 70%;
+  text-align: left;
+  margin-left: 3rem;
+  line-height: 1.5rem;
+}
+button {
+  display: block;
+  margin-left: 3rem;
+  margin-top: 2rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 1rem;
+}
+
+.timerDiv p {
+  color: white;
+  font-size: 1.2rem;
+}
+/* @keyframes rota {
   100% {
     transform: rotate(360deg);
   }
-}
+} */

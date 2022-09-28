@@ -5,23 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title></title>
-    <link rel="stylesheet" href="./styles/style.css" />
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <!-- <link rel="stylesheet" href="./styles/style.css" /> -->
   </head>
 
   <body>
     <!-- This is where your HTML goes, feel free to delete example content :) -->
     <main class="container">
       <div class="timerDiv">
-        <div>
-          <h2 class="days">19 <span>days</span></h2>
-          <h2 class="hours">21 <span>hours</span></h2>
-          <h2 class="minutes">36 <span>minutes</span></h2>
-          <h2 class="seconds">59 <span>seconds</span></h2>
+        <div class="innerDiv">
+          <div class="d-flex">
+            <h2 class="days"></h2>
+            <p class="m-2 pl-3">Days</p>
+          </div>
+          <div class="d-flex">
+            <h2 class="hours"></h2>
+            <p class="m-2 pl-4">Hours</p>
+          </div>
+          <div class="d-flex">
+            <h2 class="minutes"></h2>
+            <p class="m-2 pl-3">Minutes</p>
+          </div>
+          <div class="d-flex">
+            <h2 class="seconds"></h2>
+            <p class="m-2 pl-3">Seconds</p>
+          </div>
         </div>
       </div>
       <div class="textDiv">
         <div>
-          <h1>COMING SOON</h1>
+          <h1>TIME TO CHRISTMAS</h1>
           <p>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque
             obcaecati explicabo, sint eligendi nihil,
